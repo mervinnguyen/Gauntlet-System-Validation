@@ -33,3 +33,6 @@ Avengers: Age of Ultron: The humorous yet profound team effort to lift Thor's Mj
 This project celebrates the themes of strength, resilience, teamwork, and ingenuity, all central to the cinematic scenes it’s inspired by in the Embedded World. It combines engineering with creativity to bridge the gap between fantasy and reality. The power between the communication between hardware and software CAN pose many possible problems in the world that can be interpreted the proper way through the power of the Marvel Universe. 
 
 Feel free to contribute, modify, and build upon this project to take it to new heights!
+
+![Thanos](Thanos.jpg)
+
