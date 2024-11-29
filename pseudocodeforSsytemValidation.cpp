@@ -20,3 +20,6 @@
 //map the analog values to the sensor positions
 
 //check for any debugging
+
+//NOTES:
+//intiialize communication protocol (e.g. I2C, SPI, UART)
