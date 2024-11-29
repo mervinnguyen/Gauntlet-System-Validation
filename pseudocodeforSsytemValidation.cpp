@@ -64,6 +64,7 @@ void setup(){
     servoTwoIndex.attach(10);
     servoThreeMiddle.attach(11);
     servoFourRing.attach(12);
+    servoFivePinky.attach(13);
 }
 
 void loop(){
