@@ -1,4 +1,4 @@
-//System Validation Engineer: Mervin Nguyen
+//System Validation Engineer: Mervin Nguyen, Wilson Nguyen
 //Company: Home
 
 //DescriptionL This is pseudocode for the system validation engineer position. 
