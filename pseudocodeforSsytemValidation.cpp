@@ -62,6 +62,7 @@ void setup(){
     Serial.begin(9600);
     servoWonThumb.attach(9);
     servoTwoIndex.attach(10);
+    servoThreeMiddle.attach(11);
 }
 
 void loop(){
