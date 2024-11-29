@@ -26,3 +26,19 @@
 //intiialie power management system 
 // perform self-test on all sensors
 //perform self-test on all actuators
+//log intiial system state
+
+//start main control loop
+//read sensor data
+//process sensor fata
+//update actuator positions on processed data
+//log system state
+//check for errors
+//handle errors
+//repeat
+
+//end main control loop
+//perform system shutdown
+//log final system state
+
+//end
