@@ -59,6 +59,8 @@ int four = A4;
 int five = A5;
 
 void setup(){
+    Serial.begin(9600);
+    servoWonThumb.attach(9);
 }
 
 void loop(){
