@@ -52,3 +52,14 @@ Servo servo3;
 Servo servo4;
 Servo servo5;
 
+int won = A1;
+int two = A2;
+int three = A3;
+int four = A4;
+int five = A5;
+
+void setup(){
+}
+
+void loop(){
+}
