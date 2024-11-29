@@ -46,11 +46,11 @@
 //end
 #include <Servo.h>
 
-Servo servo1;
-Servo servo2;
-Servo servo3;
-Servo servo4;
-Servo servo5;
+Servo servoWonThumb;
+Servo servoTwoIndex;
+Servo servoThreeMiddle;
+Servo servoFourRing;
+Servo servoFivePinky;
 
 int won = A1;
 int two = A2;
