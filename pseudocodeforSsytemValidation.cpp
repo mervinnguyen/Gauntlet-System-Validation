@@ -23,3 +23,6 @@
 
 //NOTES:
 //intiialize communication protocol (e.g. I2C, SPI, UART)
+//intiialie power management system 
+// perform self-test on all sensors
+//perform self-test on all actuators
