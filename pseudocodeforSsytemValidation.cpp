@@ -1,5 +1,5 @@
 // Title: Gauntlet System Validation
-
+//Description:
 //System Validation Engineer: Mervin Nguyen, Wilson Nguyen
 //Company: Home
 
@@ -44,3 +44,11 @@
 //log final system state
 
 //end
+#include <Servo.h>
+
+Servo servo1;
+Servo servo2;
+Servo servo3;
+Servo servo4;
+Servo servo5;
+
