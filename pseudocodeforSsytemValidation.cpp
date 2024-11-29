@@ -15,3 +15,8 @@
 //initialize all sensors for each finger
 //read analog values from flex sensors
 
+//map the analog values to the servo positions
+//map the analog values to the motor positions
+//map the analog values to the sensor positions
+
+//check for any debugging
