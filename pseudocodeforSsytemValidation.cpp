@@ -44,6 +44,7 @@
 //log final system state
 
 //end
+//export servo.h library for compiling error
 #include <Servo.h>
 
 Servo servoWonThumb;
@@ -68,4 +69,9 @@ void setup(){
 }
 
 void loop(){
+    int wonPos;
+    int twoPos;
+    int threePos;
+    int fourPos;
+    int fivePos;
 }
