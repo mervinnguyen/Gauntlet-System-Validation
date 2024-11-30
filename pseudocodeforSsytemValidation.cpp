@@ -74,4 +74,11 @@ void loop(){
     int threePos;
     int fourPos;
     int fivePos;
+
+    int servoWonThumbPos;
+    int servoTwoIndexPos;
+    int servoThreeMiddlePos;
+    int servoFourRingPos;
+    int servoFivePinkyPos;
+    
 }
