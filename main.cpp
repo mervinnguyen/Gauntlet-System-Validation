@@ -86,6 +86,12 @@ void loop(){
     servoWonThumbPos = constrain(servoWonThumbPos, 180, 0);
     servoWonThumb.write(servoWonThumbPos);
 
+    twoPos = analogRead(two);
+    servoTwoIndexPos = map(twoPos, 850, 900, 180, 0);
+    servoTwoIndexPos = constrain(servoTwoIndexPos, 180, 0);
+    servoTwoIndex.write(servoTwoIndexPos);
+
+    
 }
 
 //testing new remote repository
