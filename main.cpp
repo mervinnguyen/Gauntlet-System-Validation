@@ -95,6 +95,11 @@ void loop(){
     servoThreeMiddlePos = map(threePos, 850, 900, 180, 0);
     servoThreeMiddlePos = constrain(servoThreeMiddlePos, 180, 0);
     servoThreeMiddle.write(servoThreeMiddlePos);
+
+    fourPos = analogRead(four);
+    servoFourRingPos = map(fourPos, 850, 900, 180, 0);
+    servoFourRingPos = constrain(servoFourRingPos, 180, 0);
+    servoFourRing.write(servoFourRingPos);
 }
 
 //testing new remote repository
