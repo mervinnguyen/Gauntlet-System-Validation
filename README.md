@@ -27,7 +27,7 @@ Avengers: Age of Ultron: The humorous yet profound team effort to lift Thor's Mj
 - The Arduino interprets these readings sends signals to the servo motors, and utilizes PID to control the specific movements.
 - The servos pull on fishing strings to articulate the robotic fingers, while elastic ropes ensure the fingers return to their neutral position.
 - This setup replicates human-like finger movements with precision and realism, similar to the world of MCU, where Thanos is the main character.
-
+- 
 # Purpose of this project
 
 This project celebrates the themes of strength, resilience, teamwork, and ingenuity, all central to the cinematic scenes it’s inspired by in the Embedded World. It combines engineering with creativity to bridge the gap between fantasy and reality. The power between the communication between hardware and software CAN pose many possible problems in the world that can be interpreted the proper way through the power of the Marvel Universe. 

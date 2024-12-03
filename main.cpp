@@ -80,8 +80,39 @@ void loop(){
     int servoThreeMiddlePos;
     int servoFourRingPos;
     int servoFivePinkyPos;
+<<<<<<< HEAD:pseudocodeforSsytemValidation.cpp
 
     wonPos = analogRead(won);
     servoWonThumbPos = map(wonPos, 0, 1023, 0, 180);
     servo
+=======
+    
+    wonPos = analogRead(won);
+    servoWonThumbPos = map(wonPos, 850, 900, 180, 0);
+    servoWonThumbPos = constrain(servoWonThumbPos, 180, 0);
+    servoWonThumb.write(servoWonThumbPos);
+
+    twoPos = analogRead(two);
+    servoTwoIndexPos = map(twoPos, 850, 900, 180, 0);
+    servoTwoIndexPos = constrain(servoTwoIndexPos, 180, 0);
+    servoTwoIndex.write(servoTwoIndexPos);
+
+    threePos = analogRead(three);
+    servoThreeMiddlePos = map(threePos, 850, 900, 180, 0);
+    servoThreeMiddlePos = constrain(servoThreeMiddlePos, 180, 0);
+    servoThreeMiddle.write(servoThreeMiddlePos);
+
+    fourPos = analogRead(four);
+    servoFourRingPos = map(fourPos, 850, 900, 180, 0);
+    servoFourRingPos = constrain(servoFourRingPos, 180, 0);
+    servoFourRing.write(servoFourRingPos);
+
+    fivePos = analogRead(five);
+    servoFivePinkyPos = map(fivePos, 850, 900, 180, 0);
+    servoFivePinkyPos = constrain(servoFivePinkyPos, 180, 0);
+    servoFivePinky.write(servoFivePinkyPos);
+    
+>>>>>>> 17ba9cf958891576b52bb31cae4c3394098a6f8a:main.cpp
 }
+
+//testing new remote repository
