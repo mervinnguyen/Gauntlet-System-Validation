@@ -14,3 +14,10 @@ int middle = A3;
 int ring = A4;
 int pinky = A5;
 
+void setup(){
+
+}
+
+void loop(){
+    
+}
