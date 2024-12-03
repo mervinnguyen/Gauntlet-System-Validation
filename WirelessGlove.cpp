@@ -7,3 +7,10 @@
 #include <nRF24L01.h>
 #include <RF24.h>
 
+//Define flex sensor pins
+int thumb = A1;
+int index = A2;
+int middle = A3;
+int ring = A4;
+int pinky = A5;
+
