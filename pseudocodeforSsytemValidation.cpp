@@ -80,5 +80,8 @@ void loop(){
     int servoThreeMiddlePos;
     int servoFourRingPos;
     int servoFivePinkyPos;
-    
+
+    wonPos = analogRead(won);
+    servoWonThumbPos = map(wonPos, 0, 1023, 0, 180);
+    servo
 }
