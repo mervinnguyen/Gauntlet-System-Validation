@@ -16,12 +16,19 @@ This repository showcases a flex sensor-controlled robotic hand, inspired by ico
 # Hardware
 
 **Arduino Uno**: The brain of the system, processing inputs and controlling outputs.
+
 **2.2-inch Flex Sensors**: To detect finger movements and translate them into electrical signals.
+
 **Servo Motors**: To actuate the fingers of the robotic hand.
+
 **10k Ohm Resistors**: As pull-down resistors for stabilizing sensor readings.
+
  **Fishing Strings**: Acting as tendons to pull the robotic fingers.
+ 
  **Elastic Rope**: Providing tension for returning fingers to their original positions.
+ 
 **Glove**: A wearable interface for capturing the user’s movements.
+
 **3D-Printed Arm Model**: To house the servos and mimic a realistic robotic arm.
 
 # Function
