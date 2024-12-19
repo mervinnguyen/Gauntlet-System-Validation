@@ -37,6 +37,19 @@ int flex3;
 int flex4;
 int flex5;
 
+//Initialize Button Data
+const int buttonPin = 9;    //Pin connected to the push button
+
+int buttonState;
+int lastButtonState = LOW;
+int mode = 1;   //Current mode: 0 for mode 1, 1 for mode 2
+
+bool debounceActive = false;        //Flag to track if button debouncing is active
+bool initialButtonChange = false;   //Flag to track the initial button state change
+
+unsigned long lastModeChange = 0;   //Time of the last mode change
+unsigned long debounceDelay = 100;  //Debounce delay in milliseconds
+
 void setup(){
 
 }
