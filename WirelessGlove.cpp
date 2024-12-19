@@ -13,6 +13,10 @@ RF24 radio(7,8); //CE, CSN
 
 const byte address[6] = "00001";
 
+
+int trasmit[6]; //transmit data wirelessly
+int checkIndex = 1; //check index for the data
+
 unsigned long interval = 1000;
 unsigned long shortInterval = 750;
 unsigned long longInterval = 3000;
@@ -62,5 +66,28 @@ void setup(){
 }
 
 void loop(){
-    
+    initial buttonState = digitalRead(buttonPin);   //read current state
+
+    if(!initialButtonChange){
+        if(buttonState != lastButtonState){
+            lastButtonState = buttonState;
+            if (buttonState == HIGH){
+                initialButtonChange = true; //Button stae changed for the first time
+            }
+        }
+        if ((millis() - lastModeChange) > debounceDelay){
+            debounceActive = false; //Disable button debouncing after debounceDelay
+        }
+        if (modeSelect == 0){
+            mode1();    //Execute mode 1 functionality
+        }
+        else{
+            mode2();    //Execute mode 2 functionality
+        }
+    }
+
+    void mode1(){   //Preset Gesture mode
+        transmit[5] = 1;
+        
+    }
 }
