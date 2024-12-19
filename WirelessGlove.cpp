@@ -8,6 +8,9 @@
 #include <RF24.h>
 #include <printf.h>
 
+//intiialize radio data
+RF24 radio(7,8); //CE, CSN
+
 //Define flex sensor pins
 int thumb = A1;
 int index = A2;
