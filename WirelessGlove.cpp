@@ -89,5 +89,45 @@ void loop(){
     void mode1(){   //Preset Gesture mode
         transmit[5] = 1;
         
+        switch(checkIndex){
+            case 1: //fully open
+                delay(1000);
+                if (caseStartTime == 0){
+                    caseStartTime = millis();
+                }
+
+                if (millis() - caseStartTime > shortInterval){
+                    checkIndex++;
+                    caseStartTime = 0;
+                    break;
+                }
+
+                transmit[0] = 0;
+                transmit[1] = 0;
+                transmit[2] = 0;
+                transmit[3] = 0;
+                transmit[4] = 0;
+                
+                break;
+            case 2: //fully closed
+                if (caseStartTime == 0){
+                    caseStartTime = millis();
+                }
+                if (millis() - caseStartTime > longInterval){
+                    checkIndex++;
+                    caseStartTime = 0;
+                    break;
+                }
+
+                transmit[0] = 95;
+                transmit[1] = 120;
+                transmit[2] = 90;
+                transmit[3] = 0;
+                transmit[4] = 115;
+            break;
+
+            case 5: //Surfer
+            
+        }
     }
 }
