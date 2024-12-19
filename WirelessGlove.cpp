@@ -25,6 +25,18 @@ int middle = A3;
 int ring = A4;
 int pinky = A5;
 
+int value1;
+int value2;
+int value3;
+int value4;
+int value5;
+
+int flex1;
+int flex2;
+int flex3;
+int flex4;
+int flex5;
+
 void setup(){
 
 }
