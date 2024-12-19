@@ -51,7 +51,14 @@ unsigned long lastModeChange = 0;   //Time of the last mode change
 unsigned long debounceDelay = 100;  //Debounce delay in milliseconds
 
 void setup(){
+    Serial.begin(9600);
+    radio.begin();
+    radio.openWritingPipe(address);
+    radio.setPALevel(RF24_PA_HIGH);
+    radio.stopListening();
 
+    pinMode(buttonPin, INPUT);
+    Serial.println("Start the test");
 }
 
 void loop(){
