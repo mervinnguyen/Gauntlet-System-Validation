@@ -13,6 +13,11 @@ RF24 radio(7,8); //CE, CSN
 
 const byte address[6] = "00001";
 
+unsigned long interval = 1000;
+unsigned long shortInterval = 750;
+unsigned long longInterval = 3000;
+unsigned long caseStartTime = 0;
+
 //Define flex sensor pins
 int thumb = A1;
 int index = A2;
