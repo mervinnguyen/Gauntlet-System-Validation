@@ -11,6 +11,8 @@
 //intiialize radio data
 RF24 radio(7,8); //CE, CSN
 
+const byte address[6] = "00001";
+
 //Define flex sensor pins
 int thumb = A1;
 int index = A2;
