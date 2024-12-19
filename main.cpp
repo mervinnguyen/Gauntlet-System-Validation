@@ -105,7 +105,19 @@ void loop(){
     servoFivePinkyPos = map(fivePos, 850, 900, 180, 0);
     servoFivePinkyPos = constrain(servoFivePinkyPos, 180, 0);
     servoFivePinky.write(servoFivePinkyPos);
-    
+
+    //debug code by printing positions to serial monitor for real time monitoring
+    Serial.print(wonPos);
+    Serial.print("--");
+    Serial.print(twoPos);
+    Serial.print("--");
+    Serial.print(threePos);
+    Serial.print("--");
+    Serial.print(fourPos);
+    Serial.print("--");
+    Serial.print(fivePos);
+
+    delay (300);
 }
 
 //testing new remote repository
