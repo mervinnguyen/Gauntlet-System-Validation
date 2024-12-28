@@ -1,5 +1,5 @@
 //Creating a framework for drivers of robotic arm project
-
+//NOT APPLICABLE
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
