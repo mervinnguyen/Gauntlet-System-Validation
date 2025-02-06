@@ -15,7 +15,7 @@ This repository showcases a flex sensor-controlled robotic hand, inspired by ico
 
 # Hardware
 
-**Arduino Uno**: The brain of the system, processing inputs and controlling outputs.
+**Arduino Uno**: UART, I2C, SPI
 
 **2.2-inch Flex Sensors**: To detect finger movements and translate them into electrical signals.
 
