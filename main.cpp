@@ -82,6 +82,7 @@ void loop(){
     int servoFourRingPos;
     int servoFivePinkyPos;
     
+    //read analog values from flex sensors
     wonPos = analogRead(won);
     servoWonThumbPos = map(wonPos, 850, 900, 180, 0);
     servoWonThumbPos = constrain(servoWonThumbPos, 180, 0);
