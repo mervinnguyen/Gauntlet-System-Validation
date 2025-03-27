@@ -2,15 +2,16 @@
 //Description: Pseudocode for controlling a glove with flex sensors connected to an Arduino R3 and paired with a wireless trasnceiveer
 
 //libaries
+#include stdio.h>
 #include <Servo.h>
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
-#include <printf.h>
 
 //intiialize radio data
 RF24 radio(7,8); //CE, CSN
 
+//Address for the radio
 const byte address[6] = "00001";
 
 
