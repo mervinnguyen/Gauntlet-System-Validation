@@ -9,7 +9,7 @@ This repository showcases a flex sensor-controlled robotic hand, inspired by ico
 
 **Avengers: Endgame**: Thanos wielding the Infinity Gauntlet in the fight against Iron Man withholding all infinity stones,
 
-**Black Panther**: The "I'm not dead" scene, symbolizes resilience and strength, ande
+**Black Panther**: The "I'm not dead" scene, symbolizes resilience and strength
 
 **Avengers**: Age of Ultron: The humorous yet profound team effort to lift Thor's Mjolnir (No one is able to lift Thor's hammer).
 
