@@ -47,6 +47,7 @@
 //export servo.h library for compiling error
 #include <Servo.h>
 
+//initialize all servos for each finger
 Servo servoWonThumb;
 Servo servoTwoIndex;
 Servo servoThreeMiddle;
